@@ -1,4 +1,4 @@
-# Welcome to the AIBBC2023 Genomics and Bioinformatics curse
+# Welcome to the NCBS 2024 Statistical Genomics Course
 
 ## Exercises
 There will be hands-on exercises throughout the workshop. Exercise scripts are named by the module and subject they relate to.
