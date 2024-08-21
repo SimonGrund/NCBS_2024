@@ -10,8 +10,6 @@ library(cluster)
 library(pheatmap)
 library(ape)
 library(tidyverse)
- 
-
 
 
 # Import and Analyze Distance matrix -------------------------------------------------------------------------
