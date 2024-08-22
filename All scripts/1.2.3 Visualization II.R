@@ -130,7 +130,7 @@ p
 #### Exercises part IV ########################################################
 
 # the plot shown to the right can be saved with ggplot, e.g.: 
-ggsave("chd_500_grid_facet.pdf", width = 20, height = 20, units = "cm", device = "pdf")
+ggsave("Output/chd_500_grid_facet.pdf", width = 20, height = 20, units = "cm", device = "pdf")
 
 # A) Try to save a plot in pdf format
 # B) Try to save a plot in png format
