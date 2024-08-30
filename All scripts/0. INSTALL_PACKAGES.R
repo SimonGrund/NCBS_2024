@@ -12,9 +12,9 @@ if(length(new_packages) > 0){
   install.packages(new_packages, ask = FALSE, Ncpus = 4L, repos = "https://cran.icts.res.in/")
 }
 
-#Some packages need to be installed directly from github. Don't panic if this doesnt work at first,
-# we can come help you (especially windows computers sometimes have isssues install devtools, and need
-# and updated software called Rtools first which can be downloaded at https://cran.r-project.org/bin/windows/Rtools/)
-install.packages("devtools")
-devtools::install_github("sebastianbarfort/mapDK")
-BiocManager::install("DESeq2")
+# Some packages need to be installed directly from github. Don't panic if this doesnt work at first,
+## we can come help you (especially windows computers sometimes have isssues install devtools, and need
+## and updated software called Rtools first which can be downloaded at https://cran.r-project.org/bin/windows/Rtools/)
+# install.packages("devtools")
+# devtools::install_github("sebastianbarfort/mapDK")
+# BiocManager::install("DESeq2")
