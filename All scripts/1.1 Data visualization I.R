@@ -1,9 +1,9 @@
 #####
-# Module 2.1
+# 
 # R-programming and Visualising Data in R I
 #
 # Simon Grund Sorensen, Jakob Skou Pedersen, Søren Besenbacher, Aarhus University
-# 15/08-2023
+# 
 ####
 
 #PART 1 — R programming and data visualization#
