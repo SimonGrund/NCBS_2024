@@ -1,10 +1,10 @@
 ########
-# Module 2.1.1
+# 
 # Supervised learning II
 # Regularization
 #
 # Simon Grund Sorensen, Jakob Skou Pedersen, Søren Besenbacher, Aarhus University
-# 15/08-2023
+# 
 #######
 
 ## Load libraries ####
