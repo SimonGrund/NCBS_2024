@@ -1,5 +1,5 @@
 ########
-# Module 2.2
+# 
 # Supervised learning II
 # Classification and cross-validation
 # Simon Grund Sorensen, Jakob Skou Pedersen, Soren Besenbacher
