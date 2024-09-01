@@ -1,9 +1,9 @@
 ########
-# Module 2.3
+# 
 # Analysis of bulk RNA seq data using DESeq2
 #
 # Simon Grund Sorensen, Jakob Skou Pedersen, Søren Besenbacher, Aarhus University
-# 15/08-2023
+# 
 #######
 
 ### Some packages are made to improve and simplify the analysis of RNA seq
