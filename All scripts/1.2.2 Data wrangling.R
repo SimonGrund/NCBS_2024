@@ -1,9 +1,9 @@
 #####
-# Module 1.2.1
+# 
 # Wrangling data in R
 #
 # Simon Grund Sorensen, Jakob Skou Pedersen, Søren Besenbacher, Aarhus University
-# 15/08-2023
+#
 ####
 
 #Loading necessary packages
