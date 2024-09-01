@@ -1,9 +1,9 @@
 ########
-# Module 2.3
+# 
 # Analysis of bulk RNA seq data 
 #
 # Simon Grund Sorensen, Jakob Skou Pedersen, Søren Besenbacher, Aarhus University
-# 15/08-2023
+# 
 #######
 
 #Load packages
