@@ -17,4 +17,6 @@ if(length(new_packages) > 0){
 ## and updated software called Rtools first which can be downloaded at https://cran.r-project.org/bin/windows/Rtools/)
 # install.packages("devtools")
 # devtools::install_github("sebastianbarfort/mapDK")
-# BiocManager::install("DESeq2")
+#devtools::install_github("https://github.com/eddelbuettel/bh") #Has to be done like this with slower internet
+#BiocManager::install("BiocParallel")
+#BiocManager::install("DESeq2")
