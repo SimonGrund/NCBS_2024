@@ -3,7 +3,7 @@
 # Visualising Data in R II
 #
 # Simon Grund Sorensen, Jakob Skou Pedersen, Søren Besenbacher, Aarhus University
-# 15/08-2023
+# 
 ####
 
 # We now begin exploring a subset of the Framingham Heart Study
