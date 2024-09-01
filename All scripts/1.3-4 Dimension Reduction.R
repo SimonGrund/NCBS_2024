@@ -56,7 +56,7 @@ pve = pve %>%
 
 ## E) Let's also try to make a T-sne plot. 
 tsne_input = d_num 
-tsne_out <- Rtsne(tsne_input, pca = F)
+tsne_out <- Rtsne(tsne_input, pca = F, check_duplicates = FALSE)
 
 # F) Have a look at Rtsne in the help menu using ?Rtsne. Any of the parameters we want to change? Why?
 
