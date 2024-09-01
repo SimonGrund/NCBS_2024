@@ -1,5 +1,5 @@
 #####
-# Module 2.2
+# 
 # Visualising Data in R II
 #
 # Simon Grund Sorensen, Jakob Skou Pedersen, Søren Besenbacher, Aarhus University
