@@ -13,6 +13,7 @@ library(Rtsne)
 # Read the glaucoma data set
 d <- read_rds("Data/chd_500.rds")
 glimpse(d)
+d = d %>% filter(complete.cases(.))
 
 # Create a data frame with bloodpressures, cholesterol, age, and BMI
 d_num <- d %>% select(sbp, dbp, scl, age, bmi)
