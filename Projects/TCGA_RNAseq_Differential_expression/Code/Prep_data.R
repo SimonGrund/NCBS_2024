@@ -2,6 +2,8 @@ library(data.table)
 library(tidyverse)
 library(sjmisc)
 
+# This script shows how the data is prepared from an article. 
+# You don't have to run this code but can do so for inspiration.
 genelist = readxl::read_excel("Data/Genes.xlsx")
 d = fread("Data/GSM1536837_06_01_15_TCGA_24.tumor_Rsubread_FeatureCounts.txt")
 d = filter(d, V1 %in% genelist$GENE)
