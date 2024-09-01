@@ -1,8 +1,8 @@
 #####
-# Module 1.3) Clustering
+# 
 # 
 # Simon Grund Sorensen, Jakob Skou Pedersen, Søren Besenbacher, Aarhus University
-# 15/08-2023
+# 
 ####
 
 #Load packages
