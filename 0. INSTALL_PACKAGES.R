@@ -1,7 +1,8 @@
 install.packages("BiocManager", repos = "https://cloud.r-project.org")
+BiocManager::install("M3C")
 
 packages_to_install = c(
-  "tidyverse", "broom", "Rtsne", "M3C", "tidymodels", "skimr", "ggdendro",
+  "tidyverse", "broom", "Rtsne", "tidymodels", "skimr", "ggdendro",
   "GGally", "dotwhisker", "vip", "ranger", "data.table",
   "gapminder", "riskCommunicator", "pheatmap", "ape", "cluster", "ggpubr"
 )
