@@ -1,8 +1,8 @@
 #####
-# Module 1.3) Dimension reduction in R
+#  Dimension reduction in R
 #
 # Simon Grund Sorensen, Jakob Skou Pedersen, Søren Besenbacher, Aarhus University
-# 15/08-2023
+# 
 ####
 
 #Load packages
