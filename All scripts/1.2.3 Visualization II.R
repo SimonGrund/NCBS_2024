@@ -139,6 +139,13 @@ ggsave("Output/chd_500_grid_facet.pdf", width = 20, height = 20, units = "cm", d
 
 # E)
 # Try to plot a map of Denmark using the below commands:
+
+# First, install devtools and the mapDK package straight from github
+install.packages("devtools")
+devtools::install_github("sebastianbarfort/mapDK")
+install.packages("BiocManager")
+BiocManager::install("DESeq2")
+
 library(mapDK)
 mapDK()
 
