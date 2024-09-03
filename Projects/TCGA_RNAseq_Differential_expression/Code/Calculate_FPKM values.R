@@ -2,8 +2,8 @@ library(tidyverse)
 library(GenomicRanges)
 library(DESeq2)
 # Always ensure the working directory is set to the correct folder
-#setwd("/Users/simon/Documents/NCBS_2024/NCBS_2024/Projects/TCGA_RNAseq_Differential_expression/")
-setwd("Projects/TCGA_RNAseq_Differential_expression/")
+setwd("/Users/simon/Documents/NCBS_2024/NCBS_2024/Projects/TCGA_RNAseq_Differential_expression/")
+#setwd("Projects/TCGA_RNAseq_Differential_expression/")
 
 # Load the data to see what it looks like.
 d = read_rds("Data/Formatted_data.rds")
@@ -11,17 +11,15 @@ str(d)
 d = d[complete.cases(d),] #Remove rows with missing values
 
 #Prepare counts for Deseq2
-#countData = pivot_longer(d, cols = -c("Sample", "Cancertype"), names_to = "Gene", values_to = "counts")
 countData = d %>% dplyr::select(-Sample, -Cancertype) #Select only counts columns
 countData = t(countData) #Transpose the matrix, as we need genes to be rows and samples to be columns, for deseq2
 
-# Format the colData
+# Format the colData (metadata, in our case just Cancertype). 
 colData = d %>% dplyr::select(Sample, Cancertype)
 colData$Cancertype = as.factor(colData$Cancertype)
 
 # Get gene lengths
 library(biomaRt)
-#ensembl_list <- c("ENSG00000000003","ENSG00000000419","ENSG00000000457","ENSG00000000460")
 genelist = rownames(countData)
 human <- useMart("ensembl", 
                  dataset="hsapiens_gene_ensembl",
