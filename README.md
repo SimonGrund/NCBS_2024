@@ -1,5 +1,3 @@
-Testing a feature
-
 # Welcome to the NCBS 2024 Statistical Genomics Course
 
 ## Exercises
