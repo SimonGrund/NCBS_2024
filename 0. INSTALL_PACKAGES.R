@@ -3,7 +3,7 @@ BiocManager::install("M3C")
 
 packages_to_install = c(
   "tidyverse", "broom", "Rtsne", "tidymodels", "skimr", "ggdendro",
-  "GGally", "dotwhisker", "vip", "ranger", "data.table",
+  "GGally", "dotwhisker", "vip", "ranger", "data.table", "glmnet",
   "gapminder", "riskCommunicator", "pheatmap", "ape", "cluster", "ggpubr"
 )
 
